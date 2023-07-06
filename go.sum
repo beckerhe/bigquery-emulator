@@ -30,6 +30,8 @@ github.com/apache/arrow/go/v11 v11.0.0 h1:hqauxvFQxww+0mEU/2XHG6LT7eZternCZq+A5Y
 github.com/apache/arrow/go/v11 v11.0.0/go.mod h1:Eg5OsL5H+e299f7u5ssuXsuHQVEGC4xei5aX110hRiI=
 github.com/apache/thrift v0.16.0 h1:qEy6UW60iVOlUy+b9ZR0d5WzUWYGOo4HfopoyBaNmoY=
 github.com/apache/thrift v0.16.0/go.mod h1:PHK3hniurgQaNMZYaCLEqXKsYK8upmhPbmdP2FXSqgU=
+github.com/beckerhe/go-zetasqlite v0.0.0-20230705090357-8139de831309 h1:chOs8nH4VXhc111dZh4lvhchLUBxUd81ZizHsyXFvhw=
+github.com/beckerhe/go-zetasqlite v0.0.0-20230705090357-8139de831309/go.mod h1:ikLN7nRFum4sXL6kDxgIWrhH/9iZSdwXWXZzMUnuTjM=
 github.com/benbjohnson/clock v1.1.0 h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLju8=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
@@ -79,8 +81,6 @@ github.com/goccy/go-yaml v1.9.5 h1:Eh/+3uk9kLxG4koCX6lRMAPS1OaMSAi+FJcya0INdB0=
 github.com/goccy/go-yaml v1.9.5/go.mod h1:U/jl18uSupI5rdI2jmuCswEA2htH9eXfferR3KfscvA=
 github.com/goccy/go-zetasql v0.5.1 h1:vP9wgUH5gylw8yL+gwO0wF7uW/fW5Dr1AAAzi8Kgevg=
 github.com/goccy/go-zetasql v0.5.1/go.mod h1:6W14CJVKh7crrSPyj6NPk4c49L2NWnxvyDLsRkOm4BI=
-github.com/goccy/go-zetasqlite v0.17.1 h1:1G9fkZF4PJJYn3DMVeY6NaLtNRcfbmDyIZuAUOVZTYw=
-github.com/goccy/go-zetasqlite v0.17.1/go.mod h1:ikLN7nRFum4sXL6kDxgIWrhH/9iZSdwXWXZzMUnuTjM=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=
 github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e/go.mod h1:cIg4eruTrX1D+g88fzRXU5OdNfaM+9IcxsU14FzY7Hc=
 github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da h1:oI5xCqsCo564l8iNU+DwB5epxmsaqB+rhGL0m5jtYqE=
