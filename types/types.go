@@ -560,6 +560,18 @@ func normalizeData(v interface{}, field *bigqueryv2.TableFieldSchema) (interface
 		}
 		return values, nil
 	}
+	if Type(field.Type) == JSON {
+		if kind != reflect.String {
+			return nil, fmt.Errorf("expected string as input for JSON column, but got %T", v)
+		}
+		var parsed_json any
+		err := json.Unmarshal([]byte(rv.String()), &parsed_json)
+		if err != nil {
+			return nil, err
+		}
+		return parsed_json, nil
+
+	}
 	if kind == reflect.Map {
 		fieldMap := map[string]*bigqueryv2.TableFieldSchema{}
 		columnNameToValueMap := map[string]interface{}{}
